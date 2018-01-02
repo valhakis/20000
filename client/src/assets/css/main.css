@@ -1,0 +1,38 @@
+.main-form {
+}
+
+.main-form > div {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.main-form > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+.main-form > div label {
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 0px;
+  text-transform: uppercase;
+}
+.main-form > div input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+.main-form > div button {
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: auto;
+}
+.main-form > div:last-child {
+  display: flex;
+}
+.main-form > div a {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
