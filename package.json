@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/valhakis/20000#readme",
   "dependencies": {
+    "browser-sync": "^2.23.2",
     "express": "^4.16.2",
     "morgan": "^1.9.0"
   }
