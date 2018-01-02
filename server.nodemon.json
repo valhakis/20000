@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "./server",
+    "./master",
+    "./app",
+    "./shared",
+    "./local.js"
+  ]
+}
