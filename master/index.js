@@ -6,3 +6,5 @@ var master = global.master = module.exports;
 exports.require = function(location) {
   return require(path.join(_root, location));
 };
+
+exports.local = master.require('local')

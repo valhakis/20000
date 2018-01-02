@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/valhakis/20000#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "browser-sync": "^2.23.2",
     "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.0.0-rc0",
     "morgan": "^1.9.0"
   }
 }
